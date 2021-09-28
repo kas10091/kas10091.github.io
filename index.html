@@ -1,51 +1,28 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="assets/style.css">
-        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="HandheldFriendly" content="true">
-    </head>
-    <body>
-        <header>
-         <a href="https://kas10091.github.io/"> 
-            <img class="logo" src="assets/stern.png">
-            </a>
-            
-            <nav>
-                <li><a href="https://seasingtheday.wordpress.com/">Personal Blog</a></li>
-                <li><a href="https://www.linkedin.com/in/ksitaraman/">LinkedIn</a></li>
-                <li><a href="https://twitter.com/KripaSitaraman">Twitter</a></li>
-            </nav>
-        </header>
-<hr class="gradient">        
-        <section class="content">
-            <div class="container1">
-                <h1>Kripa Sitaraman
-                </h1>
-                <h2>
-                    Welcome to my personal page! 
-                </h2>
-                <br>
-            </div>
-        </section>
-      <div class="container3">
-        <div class="container-card">
-          <div class="card">
-            <div class="card-header">
-              <img src="assets/class.png" alt="classmates" />
-            </div>
-            <div class="card-body">
-              <h2>
-                Meet my friends!
-              </h2>
-              <br>
-            
-         
-         </div>
-        </div>
-    
-     <hr class="gradient">      
-    </body>
-</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App Bootstrap </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <header>Todo App</header>
+    <div class="inputField">
+      <input type="text" placeholder="Add your new todo">
+      <button><i class="fas fa-plus"></i></button>
+    </div>
+    <ul class="todoList">
+      <!-- data are comes from local storage -->
+    </ul>
+    <div class="footer">
+      <span>You have <span class="pendingTasks"></span> pending tasks</span>
+      <button>Clear All</button>
+    </div>
+  </div>
 
+  <script src="script.js"></script>
+
+</body>
+</html>
